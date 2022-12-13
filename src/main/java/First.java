@@ -34,7 +34,7 @@ class First extends JFrame
     ImageIcon bg6 = new ImageIcon(getClass().getClassLoader().getResource("b6.jpg"));
     ImageIcon bg7 = new ImageIcon(getClass().getClassLoader().getResource("b7.jpg"));
     Database a = new Database();
-    String s = "mongodb+srv://Bharath:Bharath123456@opentheatre.sgp39.mongodb.net/OpenTheatre?retryWrites=true&w=majority";
+    String s = "mongodb+srv://unamne:pass@db.sgp39.mongodb.net/OpenTheatre?retryWrites=true&w=majority";
     JLabel l,l12,l11;
     First()
     {
