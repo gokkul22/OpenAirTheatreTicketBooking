@@ -81,7 +81,7 @@ public class Second_Admin implements ActionListener {
         f.setVisible(true);
         f.setIconImage(icon);
         final Database a = new Database();
-        final String S = "mongodb+srv://Bharath:Bharath123456@opentheatre.sgp39.mongodb.net/OpenTheatre?retryWrites=true&w=majority";
+        final String S = "mongodb+srv://uname:pass@db.sgp39.mongodb.net/OpenTheatre?retryWrites=true&w=majority";
         p1 = new JPanel();
         p1.setVisible(true);
         p1.setBounds(0, 0, 1360, 100);
@@ -476,7 +476,5 @@ public class Second_Admin implements ActionListener {
             refreshCalendar(currentMonth, currentYear);
         }
     }
-    /*public static void main(String[] ar) {
-        new Second_Admin("bmkvs541@gmail.com");
-    }*/
+    
 }
