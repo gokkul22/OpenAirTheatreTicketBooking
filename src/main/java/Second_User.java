@@ -62,7 +62,7 @@ class Second_User extends JFrame{
         f.setIconImage(icon);
         f.setVisible(true);
         final Database a = new Database();
-        final String S = "mongodb+srv://Bharath:Bharath123456@opentheatre.sgp39.mongodb.net/OpenTheatre?retryWrites=true&w=majority";
+        final String S = "mongodb+srv://uname:pass@db.sgp39.mongodb.net/OpenTheatre?retryWrites=true&w=majority";
         p1 = new JPanel();
         p1.setBounds(0,0,1360,100);
         p1.setVisible(true);
@@ -922,8 +922,8 @@ class Second_User extends JFrame{
     }
     private void EmailPdf(String em,String Date,String Theatre, String Movie, String Time, String tick, int tax,boolean f) throws FileNotFoundException {
         DownloadPdf(em, Date, Theatre,Movie, Time, tick, tax, f);
-        final String username = "rcap707000@gmail.com";
-        final String password = "babu@2107";
+        final String username = "";
+        final String password = "";
         Properties prop = new Properties();
         prop.put("mail.smtp.starttls.enable", "true");
         prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -1042,7 +1042,7 @@ class Second_User extends JFrame{
             Table table = new Table(colwid);
             table.setBackgroundColor(new DeviceRgb(63, 169, 219)).setFontColor(com.itextpdf.kernel.color.Color.WHITE);
             table.addCell(new Cell().add("MOVIE BOOKING").setTextAlignment(TextAlignment.CENTER).setVerticalAlignment(VerticalAlignment.MIDDLE).setFontSize(30f).setMarginTop(30f).setMarginBottom(30f).setBorder(Border.NO_BORDER));
-            table.addCell(new Cell().add("CREATED BY \nGOKKUL \nBHARATH \nSAKTHEESWARAN").setTextAlignment(TextAlignment.RIGHT).setMarginTop(30f).setMarginBottom(30f).setMarginRight(10f).setBorder(Border.NO_BORDER));
+            table.addCell(new Cell().add("CREATED BY \nGOKKUL ").setTextAlignment(TextAlignment.RIGHT).setMarginTop(30f).setMarginBottom(30f).setMarginRight(10f).setBorder(Border.NO_BORDER));
             float colwid1[] = {80, 480};
             Table t1 = new Table(colwid1).setFontSize(20f);
             t1.addCell(new Cell().add("Email").setBorder(Border.NO_BORDER));
